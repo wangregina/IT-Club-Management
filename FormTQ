@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace QLCLB
+{
+    public partial class Form1 : DevExpress.XtraBars.Ribbon.RibbonForm
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        SqlConnection clb = new SqlConnection(@"Data Source=MAYTINH\SUNFLOWER;Initial Catalog=QLCLB;Integrated Security=True");
+        private void ketnoicsdl()
+        {
+            clb.Open();
+            string sql = "select TV.MaSV, TenSV, Lop, NgayVao, BHD.TenBan, ChucVu.TenChucVu from TV, BHD, ChucVu WHERE TV.MaBan=BHD.MaBan AND TV.MaChucVu=ChucVu.MaChucVu";  // lay het du lieu trong bang sinh vien
+            SqlCommand com = new SqlCommand(sql, clb); //bat dau truy van
+            com.CommandType = CommandType.Text;
+            SqlDataAdapter da = new SqlDataAdapter(com); //chuyen du lieu ve
+            DataTable dt = new DataTable(); //tạo một kho ảo để lưu trữ dữ liệu
+            da.Fill(dt);  // đổ dữ liệu vào kho
+            clb.Close();  // đóng kết nối
+            dataGridView1.DataSource = dt; //đổ dữ liệu vào datagridview
+        }
+        private void BarButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void BarButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ketnoicsdl();
+        }
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        
+    }
+}
