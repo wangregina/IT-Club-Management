@@ -1,0 +1,622 @@
+namespace QLCLB
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
+            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
+            this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem15 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
+            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem23 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem31 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem35 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem37 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.MaSV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenSV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Lop = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenChucVu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayVao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // ribbonPage1
+            // 
+            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup1,
+            this.ribbonPageGroup2});
+            this.ribbonPage1.Name = "ribbonPage1";
+            this.ribbonPage1.Text = "Thành viên";
+            // 
+            // ribbonPageGroup1
+            // 
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem9);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem10);
+            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.ribbonPageGroup1.ShowCaptionButton = false;
+            this.ribbonPageGroup1.Text = "Quản lý thông tin thành viên";
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Thêm thành viên";
+            this.barButtonItem1.Id = 2;
+            this.barButtonItem1.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.newcustomer1;
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem9
+            // 
+            this.barButtonItem9.Caption = "Chỉnh sửa thông tin";
+            this.barButtonItem9.Id = 14;
+            this.barButtonItem9.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_edit1;
+            this.barButtonItem9.Name = "barButtonItem9";
+            // 
+            // barButtonItem10
+            // 
+            this.barButtonItem10.Caption = "Xóa thành viên";
+            this.barButtonItem10.Id = 15;
+            this.barButtonItem10.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.del;
+            this.barButtonItem10.Name = "barButtonItem10";
+            // 
+            // ribbonPageGroup2
+            // 
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem11, true);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem13);
+            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem12);
+            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
+            this.ribbonPageGroup2.Text = "Công cụ";
+            // 
+            // barButtonItem11
+            // 
+            this.barButtonItem11.Caption = "Làm mới danh sách";
+            this.barButtonItem11.Id = 16;
+            this.barButtonItem11.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_refresh4;
+            this.barButtonItem11.Name = "barButtonItem11";
+            // 
+            // barButtonItem13
+            // 
+            this.barButtonItem13.Caption = "In danh sách";
+            this.barButtonItem13.Id = 18;
+            this.barButtonItem13.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.print1;
+            this.barButtonItem13.Name = "barButtonItem13";
+            // 
+            // barButtonItem12
+            // 
+            this.barButtonItem12.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Left;
+            this.barButtonItem12.Caption = "Xuất excel danh sách";
+            this.barButtonItem12.Id = 17;
+            this.barButtonItem12.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.export2;
+            this.barButtonItem12.Name = "barButtonItem12";
+            // 
+            // barSubItem1
+            // 
+            this.barSubItem1.Caption = "barSubItem1";
+            this.barSubItem1.Id = 45;
+            this.barSubItem1.Name = "barSubItem1";
+            // 
+            // barButtonItem17
+            // 
+            this.barButtonItem17.Caption = "Xem trước khi in";
+            this.barButtonItem17.Id = 22;
+            this.barButtonItem17.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.preview;
+            this.barButtonItem17.Name = "barButtonItem17";
+            // 
+            // barButtonItem18
+            // 
+            this.barButtonItem18.Caption = "Trợ giúp";
+            this.barButtonItem18.Id = 25;
+            this.barButtonItem18.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.needassistance1;
+            this.barButtonItem18.Name = "barButtonItem18";
+            // 
+            // barButtonItem15
+            // 
+            this.barButtonItem15.Caption = "Trợ giúp";
+            this.barButtonItem15.Id = 20;
+            this.barButtonItem15.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.needassistance;
+            this.barButtonItem15.Name = "barButtonItem15";
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "Sửa thành viên";
+            this.barButtonItem2.Id = 3;
+            this.barButtonItem2.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_edit;
+            this.barButtonItem2.Name = "barButtonItem2";
+            // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "Xóa thành viên";
+            this.barButtonItem3.Id = 4;
+            this.barButtonItem3.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_delete;
+            this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BarButtonItem3_ItemClick);
+            // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "Xuất excel";
+            this.barButtonItem4.Id = 5;
+            this.barButtonItem4.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.export;
+            this.barButtonItem4.Name = "barButtonItem4";
+            // 
+            // barButtonItem5
+            // 
+            this.barButtonItem5.Caption = "Làm mới danh sách";
+            this.barButtonItem5.Id = 7;
+            this.barButtonItem5.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_refresh;
+            this.barButtonItem5.Name = "barButtonItem5";
+            // 
+            // barButtonItem6
+            // 
+            this.barButtonItem6.Caption = "Làm mới";
+            this.barButtonItem6.Id = 8;
+            this.barButtonItem6.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_refresh1;
+            this.barButtonItem6.Name = "barButtonItem6";
+            // 
+            // barButtonItem7
+            // 
+            this.barButtonItem7.Caption = "Làm mới";
+            this.barButtonItem7.Id = 9;
+            this.barButtonItem7.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_refresh2;
+            this.barButtonItem7.Name = "barButtonItem7";
+            // 
+            // barButtonItem8
+            // 
+            this.barButtonItem8.Caption = "barButtonItem8";
+            this.barButtonItem8.Id = 10;
+            this.barButtonItem8.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.export1;
+            this.barButtonItem8.Name = "barButtonItem8";
+            // 
+            // ribbonControl1
+            // 
+            this.ribbonControl1.ExpandCollapseItem.Id = 0;
+            this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.ribbonControl1.ExpandCollapseItem,
+            this.ribbonControl1.SearchEditItem,
+            this.barButtonItem1,
+            this.barButtonItem2,
+            this.barButtonItem3,
+            this.barButtonItem4,
+            this.barButtonItem5,
+            this.barButtonItem6,
+            this.barButtonItem7,
+            this.barButtonItem8,
+            this.barButtonItem9,
+            this.barButtonItem10,
+            this.barButtonItem11,
+            this.barButtonItem12,
+            this.barButtonItem13,
+            this.barButtonItem15,
+            this.barButtonItem16,
+            this.barButtonItem17,
+            this.barButtonItem18,
+            this.barButtonItem19,
+            this.barButtonItem20,
+            this.barButtonItem21,
+            this.barButtonItem22,
+            this.barButtonItem23,
+            this.barButtonItem24,
+            this.barButtonItem25,
+            this.barButtonItem26,
+            this.barButtonItem27,
+            this.barButtonItem28,
+            this.barButtonItem29,
+            this.barButtonItem30,
+            this.barButtonItem31,
+            this.barButtonItem32,
+            this.barButtonItem33,
+            this.barButtonItem34,
+            this.barButtonItem35,
+            this.barButtonItem37,
+            this.barSubItem1});
+            this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonControl1.MaxItemId = 46;
+            this.ribbonControl1.Name = "ribbonControl1";
+            this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
+            this.ribbonPage1,
+            this.ribbonPage3});
+            this.ribbonControl1.QuickToolbarItemLinks.Add(this.barButtonItem27);
+            this.ribbonControl1.Size = new System.Drawing.Size(758, 143);
+            // 
+            // barButtonItem16
+            // 
+            this.barButtonItem16.Caption = "Báo cáo lỗi";
+            this.barButtonItem16.Id = 21;
+            this.barButtonItem16.Name = "barButtonItem16";
+            // 
+            // barButtonItem19
+            // 
+            this.barButtonItem19.Caption = "Thêm ban hoạt động";
+            this.barButtonItem19.Id = 26;
+            this.barButtonItem19.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_addcircled;
+            this.barButtonItem19.Name = "barButtonItem19";
+            // 
+            // barButtonItem20
+            // 
+            this.barButtonItem20.Caption = "Chỉnh sửa thông tin ban";
+            this.barButtonItem20.Id = 27;
+            this.barButtonItem20.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_edit2;
+            this.barButtonItem20.Name = "barButtonItem20";
+            // 
+            // barButtonItem21
+            // 
+            this.barButtonItem21.Caption = "Xóa ban hoạt động";
+            this.barButtonItem21.Id = 28;
+            this.barButtonItem21.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.del1;
+            this.barButtonItem21.Name = "barButtonItem21";
+            // 
+            // barButtonItem22
+            // 
+            this.barButtonItem22.Caption = "Lọc danh sách ban";
+            this.barButtonItem22.Id = 29;
+            this.barButtonItem22.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_filter;
+            this.barButtonItem22.Name = "barButtonItem22";
+            // 
+            // barButtonItem23
+            // 
+            this.barButtonItem23.Caption = "Làm mới danh sách";
+            this.barButtonItem23.Id = 30;
+            this.barButtonItem23.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_refresh5;
+            this.barButtonItem23.Name = "barButtonItem23";
+            // 
+            // barButtonItem24
+            // 
+            this.barButtonItem24.Caption = "Xem trước khi in";
+            this.barButtonItem24.Id = 31;
+            this.barButtonItem24.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.preview1;
+            this.barButtonItem24.Name = "barButtonItem24";
+            // 
+            // barButtonItem25
+            // 
+            this.barButtonItem25.Caption = "In danh sách";
+            this.barButtonItem25.Id = 32;
+            this.barButtonItem25.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.print2;
+            this.barButtonItem25.Name = "barButtonItem25";
+            // 
+            // barButtonItem26
+            // 
+            this.barButtonItem26.Caption = "Xuất excel danh sách";
+            this.barButtonItem26.Id = 33;
+            this.barButtonItem26.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.export3;
+            this.barButtonItem26.Name = "barButtonItem26";
+            // 
+            // barButtonItem27
+            // 
+            this.barButtonItem27.Caption = "Save";
+            this.barButtonItem27.Id = 34;
+            this.barButtonItem27.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.save;
+            this.barButtonItem27.Name = "barButtonItem27";
+            // 
+            // barButtonItem28
+            // 
+            this.barButtonItem28.Caption = "Thêm điểm danh";
+            this.barButtonItem28.Id = 35;
+            this.barButtonItem28.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_calendar;
+            this.barButtonItem28.Name = "barButtonItem28";
+            // 
+            // barButtonItem29
+            // 
+            this.barButtonItem29.Caption = "Xem danh sách điểm danh";
+            this.barButtonItem29.Id = 36;
+            this.barButtonItem29.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.ganttview;
+            this.barButtonItem29.Name = "barButtonItem29";
+            // 
+            // barButtonItem30
+            // 
+            this.barButtonItem30.Caption = "Làm mới danh sách";
+            this.barButtonItem30.Id = 37;
+            this.barButtonItem30.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_refresh6;
+            this.barButtonItem30.Name = "barButtonItem30";
+            // 
+            // barButtonItem31
+            // 
+            this.barButtonItem31.Caption = "In danh sách";
+            this.barButtonItem31.Id = 38;
+            this.barButtonItem31.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.print3;
+            this.barButtonItem31.Name = "barButtonItem31";
+            // 
+            // barButtonItem32
+            // 
+            this.barButtonItem32.Caption = "Xuất excel danh sách";
+            this.barButtonItem32.Id = 39;
+            this.barButtonItem32.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.export4;
+            this.barButtonItem32.Name = "barButtonItem32";
+            // 
+            // barButtonItem33
+            // 
+            this.barButtonItem33.Caption = "Xem trước khi in";
+            this.barButtonItem33.Id = 40;
+            this.barButtonItem33.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.preview2;
+            this.barButtonItem33.Name = "barButtonItem33";
+            // 
+            // barButtonItem34
+            // 
+            this.barButtonItem34.Caption = "Chỉnh sửa điểm danh";
+            this.barButtonItem34.Id = 41;
+            this.barButtonItem34.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.actions_edit3;
+            this.barButtonItem34.Name = "barButtonItem34";
+            // 
+            // barButtonItem35
+            // 
+            this.barButtonItem35.Caption = "Xóa điểm danh";
+            this.barButtonItem35.Id = 42;
+            this.barButtonItem35.ImageOptions.SvgImage = global::QLCLB.Properties.Resources.del2;
+            this.barButtonItem35.Name = "barButtonItem35";
+            // 
+            // barButtonItem37
+            // 
+            this.barButtonItem37.Caption = "barButtonItem37";
+            this.barButtonItem37.Id = 44;
+            this.barButtonItem37.Name = "barButtonItem37";
+            // 
+            // ribbonPage3
+            // 
+            this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPageGroup5,
+            this.ribbonPageGroup6});
+            this.ribbonPage3.Name = "ribbonPage3";
+            this.ribbonPage3.Text = "Điểm danh";
+            // 
+            // ribbonPageGroup5
+            // 
+            this.ribbonPageGroup5.ItemLinks.Add(this.barButtonItem28);
+            this.ribbonPageGroup5.ItemLinks.Add(this.barButtonItem34);
+            this.ribbonPageGroup5.ItemLinks.Add(this.barButtonItem35);
+            this.ribbonPageGroup5.Name = "ribbonPageGroup5";
+            this.ribbonPageGroup5.Text = "Quản lý điểm danh";
+            // 
+            // ribbonPageGroup6
+            // 
+            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem30);
+            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem31);
+            this.ribbonPageGroup6.ItemLinks.Add(this.barButtonItem32);
+            this.ribbonPageGroup6.Name = "ribbonPageGroup6";
+            this.ribbonPageGroup6.Text = "Công cụ";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaSV,
+            this.TenSV,
+            this.Lop,
+            this.TenBan,
+            this.TenChucVu,
+            this.NgayVao});
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 143);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dataGridView1.Size = new System.Drawing.Size(758, 217);
+            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
+            // 
+            // MaSV
+            // 
+            this.MaSV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaSV.DataPropertyName = "MaSV";
+            this.MaSV.HeaderText = "Mã sinh viên";
+            this.MaSV.Name = "MaSV";
+            this.MaSV.ReadOnly = true;
+            // 
+            // TenSV
+            // 
+            this.TenSV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenSV.DataPropertyName = "TenSV";
+            this.TenSV.HeaderText = "Họ và tên";
+            this.TenSV.Name = "TenSV";
+            this.TenSV.ReadOnly = true;
+            // 
+            // Lop
+            // 
+            this.Lop.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Lop.DataPropertyName = "Lop";
+            this.Lop.HeaderText = "Lớp";
+            this.Lop.Name = "Lop";
+            this.Lop.ReadOnly = true;
+            // 
+            // TenBan
+            // 
+            this.TenBan.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenBan.DataPropertyName = "TenBan";
+            this.TenBan.HeaderText = "Ban tham gia";
+            this.TenBan.Name = "TenBan";
+            this.TenBan.ReadOnly = true;
+            // 
+            // TenChucVu
+            // 
+            this.TenChucVu.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenChucVu.DataPropertyName = "TenChucVu";
+            this.TenChucVu.HeaderText = "Chức vụ";
+            this.TenChucVu.Name = "TenChucVu";
+            this.TenChucVu.ReadOnly = true;
+            // 
+            // NgayVao
+            // 
+            this.NgayVao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgayVao.DataPropertyName = "NgayVao";
+            this.NgayVao.HeaderText = "Ngày vào";
+            this.NgayVao.Name = "NgayVao";
+            this.NgayVao.ReadOnly = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(494, 61);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(159, 21);
+            this.textBox1.TabIndex = 5;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(662, 99);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Lọc";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(494, 100);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(159, 21);
+            this.comboBox1.TabIndex = 7;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(662, 59);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(59, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Tìm kiếm";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Appearance.Options.UseForeColor = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(758, 360);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.ribbonControl1);
+            this.Name = "Form1";
+            this.Ribbon = this.ribbonControl1;
+            this.Text = "Phần mềm quản lý thành viên CLB";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
+        protected DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem5;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
+        private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem9;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem12;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem13;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem15;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem16;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem17;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem18;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem19;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem20;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem21;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem22;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem23;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem24;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem25;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem26;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem27;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage3;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem28;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem29;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem30;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem31;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem32;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem33;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem34;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem35;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem37;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaSV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenSV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Lop;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenBan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenChucVu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayVao;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button2;
+        private DevExpress.XtraBars.BarSubItem barSubItem1;
+    }
+}
+
